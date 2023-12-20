@@ -4,13 +4,11 @@ ClapTrap::ClapTrap( std::string name ) : _name(name), _health(10), _energy(10), 
 {
 
 	std::cout << "ClapTrap " << this->_name << " created." << std::endl;
-	;
 }
 
 ClapTrap::~ClapTrap( void )
 {
 	std::cout << "ClapTrap " << this->_name << " destroyed." << std::endl;
-	;
 }
 
 ClapTrap::ClapTrap(const ClapTrap &a)

@@ -7,13 +7,11 @@ ScavTrap::ScavTrap( const std::string name ) : ClapTrap(name)
 	this->_attack = 20;
 
 	std::cout << "ScavTrap " << this->_name << " constructed." << std::endl;
-	;
 }
 
 ScavTrap::~ScavTrap( void )
 {
 	std::cout << "ScavTrap " << this->_name << " destructed." << std::endl;
-	;
 }
 
 void	ScavTrap::attack(const std::string& target)
@@ -34,5 +32,4 @@ void	ScavTrap::attack(const std::string& target)
 void	ScavTrap::guardGate( void )
 {
 	std::cout << "ScavTrap " << this->_name << " is now in Gate keeper mode." << std::endl;
-	;
 }

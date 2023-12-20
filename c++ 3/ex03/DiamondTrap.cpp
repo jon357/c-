@@ -9,7 +9,6 @@ DiamondTrap::DiamondTrap(std::string name): ClapTrap(name), FragTrap( name ), Sc
 	FragTrap::_attack = 30;
 
 	std::cout << "DiamondTrap " << this->_name << " assambled." << std::endl;
-	;
 }
 
 DiamondTrap::~DiamondTrap()
